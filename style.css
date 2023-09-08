@@ -1,0 +1,99 @@
+/* Ho inserito * per margine e font a tutti */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+
+/* Riflesso opcao */
+.Opacità {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 80px 20px;
+}
+
+header {
+  text-align: center;
+  font-size: 13px;
+  color: rgb(0, 255, 0);
+  padding-bottom: 5px;
+}
+
+header img {
+    width: 180px;
+}
+
+
+.Cliccabili {
+    background-color: rgb(0, 255, 0);
+    text-align: center;
+    padding: 5px;
+}
+
+.Cliccabili, main {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    font-size: 10px;
+}
+
+main {
+    color: white;
+    padding-top: 20px;
+}
+
+main > section {
+    padding-bottom: 20px;
+}
+
+section > h3 {
+    display: inline-block;
+}
+
+section > span {
+    display: block;
+    font-size: 12px;
+
+}
+
+.Freccia:before {
+    content: "\21A6";
+}
+
+/* Blocchi di ricarica */
+
+.Blocco {
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+
+/* cssgradient.io mi è stato molto di aiuto per far trovare questi esatti valori */
+
+.Carica{
+  width: 200px;
+  background-color: #ffbe46;
+}
+
+.Carica2{
+  width: 400px;
+  background-color: #30b730;
+}
+
+.Carica3{
+  width: 120px;
+  background-color: #b03c3c;
+}
